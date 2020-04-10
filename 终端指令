@@ -1,0 +1,15 @@
+1. roscore
+
+2. roslaunch rchomeedu_speech lm.launch dict:=/home/ginger/catkin_ws/src/opencv_apps/Speech_Recognition/Picture.dic lm:=/home/ginger/catkin_ws/src/opencv_apps/Speech_Recognition/Picture.lm
+
+3. roslaunch usb_cam usb_cam-test.launch
+
+4. roslaunch opencv_apps face_recognition.launch image:=/usb_cam/image_raw
+
+5. rosrun rchomeedu_vision take_photo_sub.py
+
+6. rosrun opencv_apps listener.py
+
+7. rosrun sound_play soundplay_node.py
+
+8. rosrun opencv_apps say.py

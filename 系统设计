@@ -1,0 +1,37 @@
+本系统的功能如下：
+
+1. 人脸识别
+
+2. 提醒拍照者摆好头的位置：
+    
+    离摄像头太近时提醒：Too close XXX ! Please move your head away a little !
+    
+    离摄像头太远时提醒：Too far XXX ! Please move your head a little closer !
+
+    头太靠右侧时提醒：Too right XXX ! Please move your head a little to the left !
+
+    头太靠左侧时提醒：Too left XXX ! Please move your head a little to the right !
+
+    头的位置太高时提醒：Too high XXX ! Please move your computer camera a little higher or move your head a little lower !
+
+    头的位置太低时提醒：Too low XXX ! Please move your computer camera a little lower or move your head a little higher !
+
+3. 提醒人数过多：Too many People ! We can only take photos of no more than three people !
+
+4. 提醒摄像头前有几个人：OK ! The number of people is X !
+
+5. 无提示时打印至屏幕的文字：I have nothing to say now !
+
+6. 语音控制拍照：
+
+    当拍照者说：Take a picture/photo for me/us ! 时
+
+    电脑回答：OK! I will take a picture for you in 5 seconds. Please don't move!
+
+    之后电脑进入倒计时：Five ! Four ! Three ! Two ! One ! Zero!
+
+    之后电脑拍照
+
+    电脑拍摄完毕回答：I have finished it !
+
+

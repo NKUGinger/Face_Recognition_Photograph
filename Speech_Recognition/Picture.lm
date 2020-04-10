@@ -1,0 +1,54 @@
+Language model created by QuickLM on Fri Apr 10 04:51:25 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 2 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=11
+ngram 3=10
+
+\1-grams:
+-1.2041 </s> -0.3010
+-1.2041 <s> -0.2730
+-1.2041 A -0.2730
+-1.2041 FOR -0.2730
+-1.5051 ME -0.2730
+-1.5051 PHOTO -0.2730
+-1.5051 PICTURE -0.2730
+-1.2041 PLEASE -0.2730
+-1.2041 TAKE -0.2730
+-1.5051 US -0.2730
+
+\2-grams:
+-0.3010 <s> PLEASE 0.0000
+-0.6021 A PHOTO 0.0000
+-0.6021 A PICTURE 0.0000
+-0.6021 FOR ME 0.0000
+-0.6021 FOR US 0.0000
+-0.3010 ME </s> -0.3010
+-0.3010 PHOTO FOR -0.1761
+-0.3010 PICTURE FOR -0.1761
+-0.3010 PLEASE TAKE 0.0000
+-0.3010 TAKE A 0.0000
+-0.3010 US </s> -0.3010
+
+\3-grams:
+-0.3010 <s> PLEASE TAKE
+-0.3010 A PHOTO FOR
+-0.3010 A PICTURE FOR
+-0.3010 FOR ME </s>
+-0.3010 FOR US </s>
+-0.3010 PHOTO FOR US
+-0.3010 PICTURE FOR ME
+-0.3010 PLEASE TAKE A
+-0.6021 TAKE A PHOTO
+-0.6021 TAKE A PICTURE
+
+\end\

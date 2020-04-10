@@ -1,0 +1,34 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+
+    <category>
+        <pattern>TAKE A PICTURE FOR ME</pattern>
+        <template>
+            OK! I will take a picture for you in 5 seconds. Please don't move!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TAKE A PICTURE FOR US</pattern>
+        <template>
+            OK! I will take a picture for you in 5 seconds. Please don't move!
+        </template>
+    </category>
+
+    <category>
+        <pattern>TAKE A PHOTO FOR ME</pattern>
+        <template>
+            OK! I will take a picture for you in 5 seconds. Please don't move!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TAKE A PHOTO FOR US</pattern>
+        <template>
+            OK! I will take a picture for you in 5 seconds. Please don't move!
+        </template>
+    </category>
+
+    
+</aiml>
